@@ -74,7 +74,7 @@ void FIFO(){
         }
     }
 
-    std::cout << page_faults << std::endl;
+    std::cout << "FIFO = " << page_faults << std::endl;
 }
 
 void LRU(){
@@ -108,7 +108,7 @@ void LRU(){
         frame_index[page] = i;
     }
 
-    std::cout << page_faults << std::endl;
+    std::cout << "LRU = "<< page_faults << std::endl;
 }
 
 int main(){
